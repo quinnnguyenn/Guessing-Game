@@ -7,32 +7,18 @@
 </head>
 
 <body>
-    <p id="display"></p>
 
-    <script type="text/javascript">
+  <p id="demo"></p>
 
-<script>
-function myFunction() {
-  let text;
-  let favDrink = prompt("What's your favorite drink?", "Coca-Cola");
-  switch(favDrink) {
-    case "Coca-Cola":
-      text = "Excellent choice. Coca-Cola is good for your soul.";
-      break;
-    case "Pepsi":
-      text = "Pepsi is my favorite too!";
-      break;
-    case "Sprite":
-      text = "Really? Are you sure the Sprite is your favorite?";
-      break;
-    default:
-      text = "I have never heard of that one..";
+  <script>
+  function myFunction() {
+    let number = prompt("Please pick a number between 1 and 10");
+    if (number != 2) {
+      document.getElementById("demo").innerHTML =
+      "You chose" + number + "that is correct";
+    }
   }
-  document.getElementById("demo").innerHTML = text;
-}
-</script>
-
-
+  </script>
 
 </body>
 </html>
