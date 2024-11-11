@@ -1,5 +1,5 @@
-let randomNumber = prompt("What's a number between 1 and 10")
+prompt("What's a number between 1 and 10")
 
-if (randomNumber = 4) {
-    prompt("That's correct!")
-}
+randomNumber = Math.floor(Math.random() * 10) +1;
+document.getElementById("demo").innerHTML = randomNumber;
+console.log(randomNumber);
