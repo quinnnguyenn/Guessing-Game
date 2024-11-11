@@ -1,0 +1,1 @@
+var name = window.prompt("What's a number between 1 and 10")
