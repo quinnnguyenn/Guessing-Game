@@ -3,9 +3,9 @@ document.getElementById("demo").innerHTML = randomNumber;
 
 let number = prompt("What's a number between 1 and 10")
 
-if (number == randomNumber) {
-alert("Thats right!");
+if (number === randomNumber) {
+alert("Thats got it in guesses!");
 }
-else if (number != randomNumber) {
+else if (number !== randomNumber) {
     prompt("Try again..")
 }
