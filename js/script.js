@@ -5,11 +5,11 @@ if (number == randomNumber) {
     alert("You guessed it!")
 }
 else if (number != randomNumber) {
-    let numberGuess = prompt("try again")
+    var numberGuess = prompt("try again")
 }
 if (numberGuess == randomNumber) {
     alert("You guessed it!")
 }
 else if (numberGuess != randomNumber) {
-    let numberGuess = prompt("try again")
+    var numberGuess = prompt("try again")
 }
