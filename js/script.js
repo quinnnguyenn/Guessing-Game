@@ -7,7 +7,7 @@ if (number == randomNumber) {
 else if (number != randomNumber) {
     var numberGuess = prompt("try again")
 }
-if (numberGuess == randomNumber) {
+else if (numberGuess == randomNumber) {
     alert("You guessed it!")
 }
 else if (numberGuess != randomNumber) {
